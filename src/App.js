@@ -1,16 +1,12 @@
 import Todo from './components/Todo';
-import Modal from './components/Modal';
-import Backdrop from './components/Backdrop';
 
 function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todo title="Learn React.js"></Todo>
-      <Todo title="Make project"></Todo>
-      <Todo title="Apply to jobs"></Todo>
-      <Modal></Modal>
-      <Backdrop></Backdrop>
+      <Todo title="Learn React.js" />
+      <Todo title="Make project" />
+      <Todo title="Apply to jobs" />
     </div>
   );
 }
